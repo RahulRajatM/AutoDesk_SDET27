@@ -11,4 +11,10 @@ public class CreateCustomer {
 	{
 		Reporter.log("Customer Created ");
 	}
+
+	@Test
+	public void modifyCustomer()
+	{
+		Reporter.log("Customer Modify",true);
+	}
 }
